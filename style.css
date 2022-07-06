@@ -12,7 +12,7 @@ body{
     background-image: linear-gradient(to bottom, rgba(175, 129, 2, 0.452), rgba(0, 0, 0, 0.89)), url(images/header-image.png);
     background-repeat: no-repeat;
     width: 1900px;
-    height: 1100px;
+    height:1000px;
 }
 .header-big-text{
     font-size: 80px;
@@ -96,10 +96,10 @@ li {
 }
 #inputNumber{
 
-    width: 600px;;
+    width: 800px;;
     text-align: center;
     margin-top: 5%;
-    margin-left: 36%;
+    margin-left: 33%;
     font-size: 20px;
     border-top-width: 0px;
     border-right-width: 0px;
@@ -118,7 +118,7 @@ li {
     font-weight: 700;
     text-align: center;
     margin-top: 5%;
-    margin-left: 45%;
+    margin-left: 47%;
     font-family: 'Roboto', sans-serif;
 }
 .third-part-big-text{
@@ -251,7 +251,7 @@ li {
     
 }
 #form-card [type=text]{
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
     width: 400px;
     height: 40px;
   
@@ -272,13 +272,13 @@ li {
 }
 #form-card button{
     text-align: center;
-    margin-left: auto;
+    margin-left: -5px;
     margin-right: auto;
-    width: 150px;
+    width: 200px;
     height: 60px;
     font-size: 20px;
     color: aliceblue;
-    border-radius: 5px;
+    border-radius:0px 5px  5px 0px ;
     background-color: rgba(237, 50, 87, 0.841);
     border-left-width: 0px;
     border-right-width: 0px;
@@ -296,10 +296,7 @@ li {
 
     font-size: 20px;
 }
-.btn{
- margin-left: -5px;
 
-}
 .footer-part{
     width: 1900px;
     height: 300px;
